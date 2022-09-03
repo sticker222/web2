@@ -1,0 +1,29 @@
+h1 {
+  text-align:center;
+  font-size:60px;
+  border-bottom:3px gray solid;
+  height:100px;
+  margin-top:25px;
+}
+h1 a {
+  color:green;
+  text-decoration:none;
+}
+p a {
+  color:black;
+  text-decoration:none;
+}
+#index {
+  border-right:2px gray solid;
+  width:200px;
+  text-align:center;
+  font-size:20px;
+}
+#grid {
+  display:grid;
+  grid-template-columns:250px 1fr;
+}
+#now {
+  color:orange;
+  text-decoration:underline;
+}

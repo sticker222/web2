@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WEB2CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1><a href="index.html">WEB2 - CSS</a></h1>
+    <div id="grid">
+      <p id="index">
+        <a href="3.html">3강</a><br>
+        <a href="4.html">4강</a><br>
+        <a href="5.html">5강</a><br>
+        <a href="6.html">6강</a><br>
+        <a href="7.html">7강</a><br>
+        <a href="8.html">8강</a><br>
+        <a href="9.html">9강</a><br>
+        <a id="now" href="10.html">10강</a><br>
+        <a href="11.html">11강</a><br>
+        <a href="12.html">12강</a><br>
+        <a href="13.html">13강</a><br>
+        <a href="14.html">14강</a><br>
+        <a href="15.html">15강</a>
+      </p>
+      <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M1eQFIBY2vI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+          디자인을 위해, 어떤 의미도 존재하지 않는 태그를 사용하기도 한다.
+          <ul>
+            <li>div 태그 : block element
+            <li>span 태그 : inline element
+          </ul>
+        </p>
+      <h3>그리드</h3>
+        <p>
+          세로로 배열 된 두 컨텐츠를 가로로 나란히 놓기 위해, 우선 두개의 컨텐츠를 각각 div로 묶어준다. 그리고 두개의 div 태그를 다른 div 태그 밑에 넣는다. 두개의 div 태그를 포함하는 div 태그는 부모태그가 되는 것이다. 이렇게 부모 태그를 만들어 준 다음에, 혼동을 피하기 위해 부모 div 태그에는 id 값을 설정해준다. 예를 들어 id="grid" 라고 해보겠다. <br>
+          style 태그에서, #grid {<u>display:grid; grid-template-columns</u>:150px 1fr;}<br>
+          grid-template-columns 뒤에 입력하는 수치는 각 컨텐츠의 차지 공간을 가리킨다. fr은 공간의 차지 비율을 말한다.<br><br>
+          <img src="101.png"><br>
+          <img src="102.png" width="30%"><br> 
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
